@@ -1,0 +1,16 @@
+.login1-container{
+    min-height:100vh;
+    background: linear-gradient(135deg, rgba(241, 103, 218, 0.7), rgba(244, 127, 174, 0.7), rgba(249, 157, 129, 0.7)),
+              url('admin.jpeg') no-repeat center center;
+  background-size: cover;
+  padding-top: 50px; /* Add some padding to create space at the top */
+}
+.card{
+.btn{
+    background-color: #7c1af3;
+}
+.btn:hover {
+    background: linear-gradient(135deg, #ed70f6 , #c9f6ba, #c155e4 100%);
+    transform: translateY(-2px);
+  }
+}   

@@ -1,0 +1,68 @@
+.home{
+    width: 100%;
+}
+.homepage {
+    background: url('consumer.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Ensure the background image covers the container */
+    padding: 40px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* Set text color to white for better contrast */
+  }
+  
+  /* Container for the table and its elements */
+  .homepage table {
+    width: 100%;
+    border-collapse: separate; /* Separate borders for rows */
+    border-spacing: 0 20px; /* Space between rows */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for the table */
+    border-radius: 12px;
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  /* Styling for the table rows */
+  .homepage tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Light border between rows */
+  }
+  
+  /* Styling for the table headings */
+  .homepage h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  /* Styling for the paragraphs */
+  .homepage p {
+    font-size: 18px;
+    color: #f0f0f0; /* Lighter text color for better readability */
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for images */
+  .homepage img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .homepage h2 {
+      font-size: 24px;
+    }
+  
+    .homepage p {
+      font-size: 16px;
+    }
+  
+    .homepage img {
+      width: 100%;
+      height: auto;
+    }
+  }

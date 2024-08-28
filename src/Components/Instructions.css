@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('image1.png') no-repeat center center fixed; /* Replace 'background-image.jpg' with your image path */
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.instructions {
+  max-width: 800px;
+  margin: 50px auto;
+  background: rgba(166, 187, 209, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.instructionspoints {
+  margin-bottom: 25px;
+}
+
+.instructionspoints h4 {
+  color: #111111;
+  border-bottom: 3px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.instructionspoints ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.instructionspoints ul li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.instructionspoints ul li p {
+  margin: 0;
+  padding: 12px 15px;
+  background: #f0f8ff;
+  border-left: 6px solid #007bff;
+  border-radius: 10px;
+  color: #333;
+  flex-grow: 1;
+}
+
+.instructionspoints ul li ol {
+  margin: 10px 0 0 20px;
+  padding-left: 10px;
+}
+
+.instructionspoints ul li ol li {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.instructionspoints ul li::before {
+  content: "✔️";
+  margin-right: 10px;
+  color: #007bff;
+  font-size: 1.2em;
+}
+
+.instructionspoints ul li ol li::before {
+  content: "🔹";
+  margin-right: 5px;
+  color: #555;
+}
+
+.instructionspoints h4 span {
+  font-size: 0.8em;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #555;
+}

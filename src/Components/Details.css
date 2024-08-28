@@ -1,0 +1,49 @@
+
+.profile-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    border: 1px solid red;
+    background-color: white;
+
+    position: relative;
+  }
+  
+  .details h1{
+    color: rgb(225, 252, 72);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .profile-table th, .profile-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .profile-table th {
+    background-color: #dd1b9c;
+  }
+  
+
+  .selected-row {
+    background-color: pink; /* Change this to the color you prefer */
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .search-input {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlight {
+    background-color: yellow;
+  }
+  

@@ -1,0 +1,80 @@
+/* Register.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+  }
+
+
+  
+  .register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    min-height:100vh;
+    background: linear-gradient(135deg, rgba(241, 103, 218, 0.7), rgba(244, 127, 174, 0.7), rgba(249, 157, 129, 0.7)),
+              url('image1.png') no-repeat center center;
+  background-size: cover;
+  padding-top: 50px; 
+    /* Gradient background */
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: rgba(159, 225, 247, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 1rem;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button.btn-dark {
+    background-color: #bcd6f1;
+    color: #fff;
+  }
+  
+  button.btn-dark:hover {
+    background-color: #643263;
+    transform: translateY(-2px);
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+  }
+  
+  h1 {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  ::placeholder {
+    color: #999;
+  }
+  
