@@ -1,3 +1,7 @@
+#Fake product identification system using Blockchain
+This website will help to detect whether the product is authenticated or not by using blockchain.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
