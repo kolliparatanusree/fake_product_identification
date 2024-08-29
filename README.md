@@ -1,6 +1,15 @@
 # Fake product identification system using Blockchain
 This website will help to detect whether the product is authenticated or not by using blockchain.
 
+# This Website contains three kinds of users
+  1. Admin
+  2. Manufacturer
+  3. Customer
+Admin can able add the new manufacturer and maintain the manufacturer details.
+Manufacturer can able to add the product details into the blockchain.
+Customer scans the Qr code and see the result whether the product is real or fake.
+
+
 
 # Getting Started with Create React App
 
