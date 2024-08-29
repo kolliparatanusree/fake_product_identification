@@ -5,8 +5,8 @@ header('Access-Control-Allow-Origin: *'); // For CORS, adjust for your needs
 // Database connection parameters
 $servername = "localhost";
 $username = "root";
-$password = "2005";
-$dbname = "fakeproductidentification";
+$password = ""; //your password
+$dbname = ""; //your database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
