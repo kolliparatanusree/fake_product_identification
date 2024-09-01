@@ -13,12 +13,12 @@ Customer scans the Qr code and see the result whether the product is real or fak
 
 # Installation
  ## Prerequisites
-    Node.js (v14 or later)
-    npm (v6 or later)
-    Supabse account
-    A blockchain network (Ethereum)
-#Set Up Supabase and Blockchain
-Supabase:
+  1. Node.js (v14 or later)
+  2. npm (v6 or later)
+  3. Supabse account
+  4. A blockchain network (Ethereum)
+# Set Up Supabase and Blockchain
+## Supabase:
 
 Sign up for a Supabase account and create a new project.
 Set up your database schema using the Supabase Dashboard or SQL scripts provided in the repository.
